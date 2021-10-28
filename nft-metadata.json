@@ -1,0 +1,15 @@
+{
+    "attributes": [
+      {
+        "trait_type": "test trait1",
+        "value": "test value1"
+      },
+      {
+        "trait_type": "test trait2",
+        "value": "test value2"
+      }
+    ],
+    "description": "hello world.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYEy4LoQ4EoQSfX1Qcve6uKaEH9zWrA3MewcayQ1AfNV1",
+    "name": "Hello World"
+  }

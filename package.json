@@ -1,0 +1,29 @@
+{
+  "name": "mintnft",
+  "version": "1.0.0",
+  "description": "Testnet NFT Minter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnrcarty/mintNFT.git"
+  },
+  "author": "John Carty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnrcarty/mintNFT/issues"
+  },
+  "homepage": "https://github.com/johnrcarty/mintNFT#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.7"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.7",
+    "@openzeppelin/contracts": "^4.3.2",
+    "dotenv": "^10.0.0"
+  }
+}
