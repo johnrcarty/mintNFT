@@ -14,7 +14,7 @@ contract MyNFT is ERC721URIStorage, Ownable {
     // set these strings to be the name and symbol for contract
     string contractName = "My NFT";
     string contractSymbol = "NFT";
-    constructor() public ERC721(contractName, contractSymbol) {}
+    constructor() ERC721(contractName, contractSymbol) {}
 
     function mintNFT(address recipient, string memory tokenURI)
         public
